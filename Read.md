@@ -28,4 +28,4 @@ Setting up Amazon S3 event notifications through Amazon SNS to receive notificat
 
 With this setup, whenever the specified S3 event occurs in your bucket (e.g., an object is uploaded), Amazon S3 will send an event notification to the Amazon SNS topic. Amazon SNS will then forward the notification to your email address as configured.
 
-Remember that email notifications can provide a convenient way to stay updated on events in your S3 bucket, but they may not be suitable for high-frequency or critical notifications due to potential email delays. For more advanced use cases, you might consider integrating S3 events with other AWS services like AWS Lambda or AWS Step Functions to trigger more sophisticated workflows.
+Remember that email notifications can provide a convenient way to stay updated on events in your S3 bucket.
